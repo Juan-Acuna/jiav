@@ -34,10 +34,10 @@ html,body{
   @apply px-3 inline-block rounded-full bg-sec-400 text-white w-fit py-1;
 }
 /* ESTILO QUE SE ACTIVA SOLO PARA IMPRIMIR EN PDF */
-.web-only{
-  @apply hidden;
-}
-/* ESTILO QUE SE ACTIVA SOLO PARA LA VERSION WEB */
-/* .pdf-only{
+/* .web-only{
   @apply hidden;
 } */
+/* ESTILO QUE SE ACTIVA SOLO PARA LA VERSION WEB */
+.pdf-only{
+  @apply hidden;
+}
