@@ -10,10 +10,10 @@ html,body{
   @apply text-center grid grid-cols-6 grid-rows-4 sm:grid-rows-3 xl:grid-rows-2 place-content-between;
 }
 .card{
-    @apply rounded-2xl drop-shadow-lg md:drop-shadow-none overflow-hidden shadow-slate-400 col-span-6 xl:col-span-3 text-center w-[95%] mb-8 md:m-0 bg-white h-fit justify-self-center;
+    @apply rounded-2xl drop-shadow-lg md:drop-shadow-none overflow-hidden shadow-slate-400 col-span-6 xl:col-span-3 text-center w-[95%] mb-8 md:m-0 bg-white dark:bg-[#292833] h-fit justify-self-center;
 }
 .card-head{
-  @apply text-2xl px-2 pb-0 pt-4 grid grid-cols-1 content-center font-light text-slate-500 font-rob text-left h-fit;
+  @apply text-2xl px-2 pb-0 pt-4 grid grid-cols-1 content-center font-light text-slate-500 font-rob text-left h-fit dark:text-[#b1b5ca];
 }
 .card-img{
    @apply w-12 h-12 inline-block row-span-2 row-start-1 mr-2;
@@ -30,9 +30,7 @@ html,body{
 .card-footer{
   @apply py-2;
 }
-.card-btn{
-  @apply px-3 inline-block rounded-full bg-sec-400 text-white w-fit py-1;
-}
+
 /* ESTILO QUE SE ACTIVA SOLO PARA IMPRIMIR EN PDF */
 /* .web-only{
   @apply hidden;
